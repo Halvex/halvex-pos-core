@@ -1,0 +1,22 @@
+---
+source: crates/pos-core/tests/schema_snapshots.rs
+expression: env
+---
+{
+  "schema_version": 2,
+  "command_id": "00000000-0000-0000-0000-00000000000a",
+  "idempotency_key": "retry-1",
+  "correlation_id": "00000000-0000-0000-0000-00000000000b",
+  "causation_id": "00000000-0000-0000-0000-00000000000c",
+  "actor_id": "00000000-0000-0000-0000-00000000000d",
+  "command": {
+    "kind": "Order",
+    "data": {
+      "kind": "OpenOrder",
+      "data": {
+        "venue_id": "00000000-0000-0000-0000-000000000001",
+        "order_id": "00000000-0000-0000-0000-000000000002"
+      }
+    }
+  }
+}

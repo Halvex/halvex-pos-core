@@ -1,0 +1,28 @@
+---
+source: crates/pos-core/tests/schema_snapshots.rs
+expression: env
+---
+{
+  "schema_version": 2,
+  "event_id": "00000000-0000-0000-0000-00000000001e",
+  "aggregate": {
+    "ty": {
+      "kind": "Order"
+    },
+    "id": "00000000-0000-0000-0000-000000000015"
+  },
+  "seq": 7,
+  "actor_id": "00000000-0000-0000-0000-000000000021",
+  "causation_id": "00000000-0000-0000-0000-00000000001f",
+  "correlation_id": "00000000-0000-0000-0000-000000000020",
+  "event": {
+    "kind": "Order",
+    "data": {
+      "kind": "OrderOpened",
+      "data": {
+        "venue_id": "00000000-0000-0000-0000-000000000014",
+        "order_id": "00000000-0000-0000-0000-000000000015"
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+---
+source: crates/pos-core/tests/schema_snapshots.rs
+expression: check_command
+---
+{
+  "kind": "AddLineFromOrderItem",
+  "data": {
+    "venue_id": "00000000-0000-0000-0000-000000000028",
+    "check_id": "00000000-0000-0000-0000-00000000002a",
+    "order_item_id": "00000000-0000-0000-0000-00000000002c",
+    "qty": 1,
+    "unit_price": {
+      "amount": "4.50",
+      "currency": "GBP"
+    },
+    "name": "Latte"
+  }
+}

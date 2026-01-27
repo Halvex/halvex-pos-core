@@ -1,0 +1,20 @@
+---
+source: crates/pos-core/tests/schema_snapshots.rs
+expression: order_command
+---
+{
+  "kind": "AddItem",
+  "data": {
+    "venue_id": "00000000-0000-0000-0000-000000000028",
+    "order_id": "00000000-0000-0000-0000-000000000029",
+    "order_item_id": "00000000-0000-0000-0000-00000000002c",
+    "menu_item_id": "00000000-0000-0000-0000-00000000002d",
+    "name": "Latte",
+    "unit_price": {
+      "amount": "4.50",
+      "currency": "GBP"
+    },
+    "qty": 1,
+    "notes": null
+  }
+}
