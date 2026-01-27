@@ -41,6 +41,15 @@ The KDS subsystem projects order events into station-specific tickets. It
 supports routing rules, per-line status, and delta printing with cursors. See
 `crates/pos-core/src/kds` and `docs/overview.md`.
 
+## Golden flow example
+
+Run the end-to-end in-memory flow and print the resulting commands, events,
+KDS tickets, and totals as JSON:
+
+```bash
+cargo run -p pos-core --example golden_flow
+```
+
 ## Tests
 
 Run all tests:
