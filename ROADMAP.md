@@ -109,24 +109,6 @@ Those live in host applications or commercial layers.
 
 ---
 
-## 💼 Commercial / Non-Core (Out of Scope for OSS Core)
-
-These are **intentionally not part of HalvexPOS Core**:
-
-- Payment processor SDKs (Stripe, Adyen, Square, etc.)
-- Fiscal/tax compliance per country
-- Reporting dashboards
-- Inventory management
-- Back-office UIs
-- Networking / APIs
-
-These belong in:
-- Host applications
-- Separate open-source projects
-- Commercial offerings built on top of the core
-
----
-
 ## 🧭 Long-Term Direction
 
 - Treat the core like a database engine:
