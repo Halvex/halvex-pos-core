@@ -390,5 +390,6 @@ Key flows live in `crates/pos-core/src/tests` (e.g. `mvp_flow.rs`).
 
 ## Support
 If there are any issues, or questions please contact pos@halvex.net, or open a ticket within
-the official Halvex discord server.
+the official [Halvex discord server](https://discord.gg/d93uhae228).
+
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FHalvex%2Fhalvex-pos-core.svg?type=large&issueType=license)](https://app.fossa.com/projects/git%2Bgithub.com%2FHalvex%2Fhalvex-pos-core?ref=badge_large&issueType=license)
