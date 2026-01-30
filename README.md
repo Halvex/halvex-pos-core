@@ -1,3 +1,5 @@
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FHalvex%2Fhalvex-pos-core.svg?type=shield&issueType=license)](https://app.fossa.com/projects/git%2Bgithub.com%2FHalvex%2Fhalvex-pos-core?ref=badge_shield&issueType=license)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FHalvex%2Fhalvex-pos-core.svg?type=shield&issueType=security)](https://app.fossa.com/projects/git%2Bgithub.com%2FHalvex%2Fhalvex-pos-core?ref=badge_shield&issueType=security)
 # HalvexPOS Core
 
 HalvexPOS Core is a pure Rust domain core for a point-of-sale system. It models
@@ -389,3 +391,4 @@ Key flows live in `crates/pos-core/src/tests` (e.g. `mvp_flow.rs`).
 ## Support
 If there are any issues, or questions please contact pos@halvex.net, or open a ticket within
 the official Halvex discord server.
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FHalvex%2Fhalvex-pos-core.svg?type=large&issueType=license)](https://app.fossa.com/projects/git%2Bgithub.com%2FHalvex%2Fhalvex-pos-core?ref=badge_large&issueType=license)
